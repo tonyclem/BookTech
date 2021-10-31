@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+    <link rel="stylesheet" href="style.css">
+    <title>BookTech HYF Project II</title>
+</head>
+<body>
+<!-- Welcome lay -->
+<div id="home" class="wlc-head">
+  <ul id="wlc-head">
+    <li>
+      <i class="fas fa-gift"></i>
+      <h3>Save 30% in each other you purchase, Fast delivery</h3>
+      
+      <a href="#features"><button class="shop">Shop Now</button></a>
+      
+      <button class="btn delete-btn">X</button>
+    </li>
+  </ul>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <ul>
+
+    <!--   Dropdown   -->
+    <div class="dropdown">
+      
+      <!--  Notice, the eventlistener only worked when the button is click, then it show text and hidden text only  -->
+      
+      <li><button  class="dropbtn">Join Our Book Club!</button></li>
+      <div class="dropdown-container">
+        
+          
+          <h3>Join The Billionaire Books Club</h3>
+          
+          <label> Email: </label>
+          
+          <input type="email"><br><br>
+          
+          <input type="checkbox">
+          <label for="vehicle1"> I agree to <span class="green">Terms</span> and <span class="green">Privacy</span> stuff:</label><br>
+          
+          <button onclick="alert('Thanks for Patronize')" >Subscribe</button>
+        
+      </div>
+    </div>
+    
+    <!--  Help center    -->
+    <div>
+      
+      <!--  Notice, the eventlistener only worked when the button is click, then it show text and hidden text only  -->
+      
+      <li><button class="drophelp">Help Center ?</button></li>
+      <div class="help-center">
+        <div class="contact">
+          <h3> Contact Us</h3>
+          <p>Lorem ipsum dolor sit amet consectetur unde molestiae corrupti. Numquam voluptatem saepe repellat porro.<br>You can reach us on +31601234567</p>
+          
+        </div>
+      </div>
+      
+    </div> 
+    
+    <li><a target="_blank" href="#"><button>Blog</button></a></li>
+    
+    <li><a target="_blank" href="#"><button><i class="fas fa-truck"></i> Track my order</button></a></li>
+    
+    <li><a href="javascript:alert('Your Shipping is on process');"><button>Free Shipping <i class="fas fa-truck"></i></button></a></li>
+    
+    <li><a target="_blank" href="#"><button>Gifts Cards</button></a></li>
+    
+    <li><a href="#" class="line">|</a></li>
+    <li><i class="fas fa-user"></i> sign up</li>
+  </ul>
+</nav>
+
+<!-- Header -->
+<header class="header-sticky header">
+  <div class="flex">
+     
+    <a href="#" class="logo">BOOKTECH</a>
+   
+    <!--  Nav   -->
+    <nav class="nav">
+      <ul>
+        <li class="nav-list"><a href="#home">Home</a></li>
+        <li class="nav-list"><a href="#features">Features</a></li>
+        <li class="nav-list"><a href="#inspire">Inspire</a></li>
+      </ul>
+    </nav>
+   
+  </div>  
+</header>
+
+<!-- Section 0 -->
+<section class="animat">
+  <div class="slider-container">
+    <div class="slider">
+      
+      <div class="slider-img">
+        <div class="bck-img" >
+          <div class="image">
+            <h1>Real Programmers</h1>
+            <h2>can write assembly code in any language!</h2>
+            <a href="#features"><button>View now!</button></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="slider-img">
+        <div class="bck-img">
+          <div class="image-01">
+            <h1>The Key to Happeness</h1>
+            <h2>Is doing what you love!</h2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="slider-img">
+        <div class="bck-img">
+          <div class="image-02">
+           
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Section 01  -->
+<section id="features" class="section-01">
+  
+ <!-- feature   -->
+  <div class="feature">
+    <h1 class="animat-left">Feature Book Best Seller</h1>
+    <a href=#more><button class="animat-right">view more (6 books)</button></a>
+  </div>
+  
+  <!--  feature image  -->
+  <div class="feature-img">
+    <img src="https://i.postimg.cc/9fNtqqM7/web-Develop.jpg">
+    <img src="https://i.postimg.cc/cJKd0V8N/htmlbooks.jpg">
+    <img src="https://i.postimg.cc/4NtLkw3F/prog-Javascript01.jpg">
+    <img src="https://i.postimg.cc/KcK6sPhR/learn-javascript.jpg">
+    <img src="https://i.postimg.cc/c4xRXNzh/creategood.jpg">
+    <img src="https://i.postimg.cc/FsHS0Vfn/crack-Thecode.jpg">
+   </div>
+  
+  <!--  Update  -->
+  <div class="update">
+    <h2>Books</h2>
+    <p><img src="https://i.postimg.cc/X7z3TBMH/Best-Cod-Cover.jpg"> They play a significant role in Student's life. ... Books help to inspire <br> students to do hard work with courage and hope.<br> They enrich the experience of students and sharpen their intellect. There are many benefits of Reading books; students will get more knowledge, improve memory and build more vocabulary.</p>
+  </div>
+  
+  <!-- feature -->
+  <div id="more" class="feature">
+    <h1 class="animat-left-01">Working Books </h1>
+    <a target="_blank" href="#"><button class="animat-right-01">view more (books)</button></a>
+  </div>
+  
+  <!--  Holidays    -->
+  <div class="holidays">
+    <div class="holidays-book">
+      
+      <div class="holidays-images">
+        <img src="https://i.postimg.cc/26VCG3Dv/nodejs.jpg">
+      </div>
+      
+      <div class="holidays-lists">
+        <h3>Mastering Node.js</h3>
+        <h5>Sandro pasquali</h5>
+        <p><span class="red-price">$55,00</span> $49,99</p>
+        <div class="icon-buy">
+          <a target="_blank" href="https://www.amazon.com/Mastering-Node-js-techniques-applications-Experience-ebook/dp/B00GX9HM8A/ref=sr_1_15?dchild=1&keywords=master+node.js&qid=1627282793&s=digital-text&sr=1-15"><button class="icon-btn">Buy Now</button></a>
+        </div>
+        
+        <!-- Icon-star -->
+        <div class="icon-star">
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>  
+        </div>  
+      </div>     
+    </div>
+    
+    <div class="holidays-book">
+      <div class="holidays-images">
+        <img src="https://i.postimg.cc/BZz0SqG7/pro-Restapi.jpg">
+      </div>
+      
+      <div class="holidays-lists">
+        <h3>Pro REST API </h3>
+        <h5>Fernando Doglio</h5>
+        <p><span class="red-price">$46.55</span> $44.99</p>
+        <div class="icon-buy">
+          <a target="_blank" href="#"><button class="icon-btn">Buy Now</button></a>
+        </div>
+        
+        <!--   Icon-star   -->
+        <div class="icon-star">
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star"></i>  
+        </div>  
+      </div>     
+    </div>
+    
+    <div class="holidays-book">
+      
+      <div class="holidays-images">
+        <img src="https://i.postimg.cc/v823CTdT/introdut2react.png">
+      </div>
+      
+      <div class="holidays-lists">
+        <h3>Introduction to React </h3>
+        <h5>Cory Gackenheimer</h5>
+        <p><span class="red-price">$25.49</span> $23.99</p>
+        <div class="icon-buy">
+          <a target="_blank" href="#"><button class="icon-btn">Buy Now</button></a>
+        </div>
+        
+        <!--   Icon-star       -->
+        <div class="icon-star">
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>  
+        </div>  
+      </div>
+    </div>
+  </div>
+  
+  <!--  Holidays   -->
+  <div class="holidays">
+    <div class="holidays-book">
+      
+      <div class="holidays-images">
+        <img src="https://i.postimg.cc/W3NtmsWc/reactbk.jpg">
+      </div>
+      
+      <div class="holidays-lists">
+        <h3>React </h3>
+        <h5>Lionel Lopez</h5>
+        <p><span class="red-price">$15.39</span> $13.38</p>
+        <div class="icon-buy">
+          <a target="_blank" href="#"><button class="icon-btn">Buy Now</button></a>
+        </div>
+        
+        <!-- Icon-star -->
+        <div class="icon-star">
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star"></i> 
+        </div>  
+      </div>     
+    </div>
+    
+    <div class="holidays-book">
+      <div class="holidays-images">
+        <img src="https://i.postimg.cc/xCzb73w3/datastuct.jpg">
+      </div>
+      
+      <div class="holidays-lists">
+        <h3>Data struction </h3>
+        <h5>Narasimha K</h5>
+        <p><span class="red-price">$36.49</span> $34.99</p>
+        <div class="icon-buy">
+          <a target="_blank" href="#"><button class="icon-btn">Buy Now</button></a>
+        </div>
+        
+        <!-- Icon-star -->
+        <div class="icon-star">
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star"></i> 
+        </div>  
+      </div>     
+    </div>
+    
+    <div class="holidays-book">
+      
+      <div class="holidays-images">
+        <img src=" https://i.postimg.cc/xCR1xBJD/dtstruction.jpg">
+      </div>
+      
+      <div class="holidays-lists">
+        <h3>Structural </h3>
+        <h5>Fiona Cobb</h5>
+        <p><span class="red-price">£30.55</span>£31.99</p>
+        <div class="icon-buy">
+          <a target="_blank" href="#"><button class="icon-btn">Buy Now</button></a>
+        </div>
+        
+        <!--   Icon-star    -->
+        <div class="icon-star">
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i>
+          <i class="fas fa-star icon"></i> 
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <!--  Covid19 warning  -->
+  <div class="warning">
+    <p>Together, we’ll get coronavirus under control in the Netherlands. On this<a target="_blank" href=""> <span class="covid19">website</span> </a> you can find information about what the Dutch government </p>
+  </div>
+  
+  <!--  About  -->
+  <div id="inspire" class="about">
+    <h2>Inspiration by BOOKTECH</h2>
+      <p>“A book is a dream that you hold in your hand.” – Neil Gaiman <br><br> “Today a reader, tomorrow a leader.” – Margaret Fuller <br><br> “Experience is the name everyone gives to their mistakes.” – Oscar Wilde <br><br> “Java is to JavaScript what car is to Carpet.” – Chris Heilmann <br><br>“When to use iterative development? You should use iterative development only on projects that you want to succeed.” – Martin Fowler<br><br>“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”
+― John Woods<br><br> “You've baked a really lovely cake, but then you've used dog shit for frosting.”
+        ― Steve Jobs <br></br>“The most disastrous thing that you can ever learn is your first programming language.”
+― Alan Kay<br><br>“The most important property of a program is whether it accomplishes the intention of its user.”
+― C.A.R. Hoare
+</p> 
+  </div>
+</section>
+
+<!-- footer -->
+<footer>
+  <div class="social-footer">
+    <a href="#home" class="booktech-footer">BOOKTECH</a>
+    
+    <div class="icon-footer">
+      
+      <a target="_blank" href="https://www.facebook.com/"><span class="facebook"> <i class="fab fa-facebook"></i></span> </a>
+      
+      <a target="_blank" href="https://github.com/tonyclem"> <span class="github"> <i class="fab fa-github "> </i> </span></a>
+      
+      <a target="_blank" href="https://twitter.com/login/"> <span class="twitter"> <i class="fab fa-twitter"></i> </span> </a>
+      
+      <a target="_blank" href="#"> <span class="youtube"> <i class="fab fa-youtube"> </i> </span> </a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
